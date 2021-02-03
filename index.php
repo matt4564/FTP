@@ -1,6 +1,6 @@
 <?php
 // Connecting, selecting database
-$dbconn = pg_connect("host=localhost dbname=publishing user=www password=foo")
+$dbconn = pg_connect("host=ec2-18-204-101-137.compute-1.amazonaws.com dbname=de8n9si7jjtvjm user=wumboiitbnbzbz password=93cfb48391089642d01c100202e763eac9e0ee2c011c21aaebd3435f40ff9dad")
     or die('Could not connect: ' . pg_last_error());
 
 // Performing SQL query
